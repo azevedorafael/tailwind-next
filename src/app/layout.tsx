@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="grid-cols-app grid min-h-screen">
+        <div className="grid min-h-screen grid-cols-app">
           <Sidebar />
           <main className="px-4 pb-12 pt-8">{children}</main>
         </div>
