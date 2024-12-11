@@ -1,4 +1,5 @@
 import { LogOut } from 'lucide-react'
+
 export function Profile() {
   return (
     <div className="grid-cols-profile grid items-center gap-3">
